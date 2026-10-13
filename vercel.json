@@ -1,6 +1,10 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/whatsapp", "destination": "https://wa.me/5535998872633?text=Oi%2C%20vim%20pelo%20Instagram%20e%20quero%20um%20site%20para%20o%20meu%20neg%C3%B3cio", "permanent": false },
+    { "source": "/zap", "destination": "https://wa.me/5535998872633?text=Oi%2C%20vim%20pelo%20Instagram%20e%20quero%20um%20site%20para%20o%20meu%20neg%C3%B3cio", "permanent": false }
+  ],
   "headers": [
     { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] }
   ]
